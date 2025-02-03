@@ -74,6 +74,7 @@ nav li a{
     color:goldenrod;
     text-align: center;
     padding: 10px;
+    height: 51px;
     text-decoration: none;
 } 
 
@@ -130,7 +131,7 @@ nav li a:hover{
 }
 
 .critique{
-    width: 40%;
+    /* width: 40%; No longer necessary*/
     gap: 2rem;
 }
 
