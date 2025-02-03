@@ -1,0 +1,285 @@
+/* Styling for web pages */
+
+
+*{
+    padding: 0;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Above sets the default for every page before customization */
+
+body {
+    background-color:white;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Setting standard for each heading and normal type text */
+p{font-size: 16px; font-family: 'Times New Roman', Times, serif; text-wrap: pretty;}
+h1{font-size: 46px; font-family: 'Lucida Handwriting', cursive; text-decoration: underline;}
+h2{font-size: 24px; font-family: 'Lucida Handwriting', cursive;}
+h3{font-size: 20px; font-family: 'Lucida Handwriting', cursive; text-decoration: underline;}
+h4{font-size: 18px; font-family: 'Lucida Handwriting', cursive;text-decoration: underline;}
+
+.resume{
+    width: 100%;
+    box-shadow: 0 0 10px gold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between; 
+    /* Justify-content spaces elements out evenly. */
+    gap: 4rem; 
+    /* Putting space between the resume and sections. 
+    Root Element (Rem) is used to ensure the element coincides with the platform it is being used on. */
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+    box-shadow: 0 0 20px purple;
+}
+
+/* styling of the navigation bar */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin: 20px; */
+    background: rgb(54, 36, 84);
+}
+
+nav ul{
+    display: flex;  /* Puts in a straight line */
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color:goldenrod;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+} 
+
+nav li a:hover{
+    background: linear-gradient(to bottom, #6666ff 33%, #99ccff 100%);
+}
+/* ---------- */
+
+/* Adding styling to images and sections */
+
+#neil-gaiman{
+    width: 75%;
+}
+
+.persona-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.content-box{
+    width: 75%;
+}
+
+.special-border{
+    border: 30px solid transparent;
+    padding: 15px;
+    border-image: url("../Assets/border-style2.svg") round;
+    border-image-slice: 30% fill;
+}
+
+.special-border{
+    /* padding: 15px; */
+    background-image: url("../Assets/border-style.svg");
+    background-size: 100% 100%;
+}
+
+.persona-screenshots{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+#temperament-pg1{
+    width: 70%;
+}
+
+#temperament-pg2{
+    width: 70%;
+}
+
+#temperament-pg3{
+    width: 100%;
+}
+
+.critique{
+    width: 40%;
+    gap: 2rem;
+}
+
+.persona-dev{
+    width: 70%;
+}
+
+.will{
+    padding: 30px;
+    margin-top: 60px;
+    width: 40%;
+
+}
+
+.pers-dev-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.acknowledge{
+    text-align: center;
+    border: 5px dashed;
+    background-color: rgb(176, 168, 211);
+    border-color: rgb(252, 252, 252);
+    padding: 40px;
+    height: 20%;
+    width: 25%;
+}
+
+
+.style-acknowledge{
+    display:flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 10%;
+}
+
+.ghost_1{
+    width: 15%;
+}
+
+/* Below are the styling parameters for the polaroid images. */
+
+.collection-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.collection-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.polaroid-graduation{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-exercise{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-friends{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-money{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-script{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.polaroid-reading{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.label-graduate{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.label-exercise{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.label-friends{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.label-money{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.label-script{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.label-reading{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+/* Below are the parameters for styling my cover page */
+.pfp{
+    width: 20%;
+    background-color: linear-gradient(to top left, #ffcccc 25%, #ffcc99 78%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    float: left;
+    margin: auto 15px;
+}
+
+.pfp-bio{
+    text-align: center;
+    padding: 15px;
+}
+
+.overlay{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+    width: 100%;
+}
+
+.welcome-page{
+    display: flex;
+    justify-content: center;
+}
