@@ -102,13 +102,13 @@ nav li a:hover{
 .special-border{
     border: 30px solid transparent;
     padding: 15px;
-    border-image: url("../Assets/border-style2.svg") round;
+    border-image: url("./Assets/border-style2.svg") round;
     border-image-slice: 30% fill;
 }
 
 .special-border{
     /* padding: 15px; */
-    background-image: url("../Assets/border-style.svg");
+    background-image: url("./Assets/border-style.svg");
     background-size: 100% 100%;
 }
 
